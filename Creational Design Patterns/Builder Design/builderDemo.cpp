@@ -25,7 +25,7 @@ private:
         this->navigationSystem = builder.navigationSystem;
     }
     // Make CarBuilder a friend so it can access private constructor
-    // friend class CarBuilder;
+    friend class CarBuilder;
 
 public: 
     //getter methods
